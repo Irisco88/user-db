@@ -17,6 +17,7 @@ CREATE TABLE users
 CREATE UNIQUE INDEX idx_users_unique_email ON users (email);
 CREATE UNIQUE INDEX idx_users_unique_user_name ON users (user_name);
 
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
 -- +goose StatementEnd
 
 -- +goose Down
