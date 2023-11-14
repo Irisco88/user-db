@@ -8,7 +8,7 @@ import (
 
 	_ "github.com/ClickHouse/clickhouse-go/v2"
 	_ "github.com/jackc/pgx/v5/stdlib"
-	_ "github.com/openfms/user-db/migrations/golang"
+	_ "github.com/irisco88/user-db/migrations/golang"
 	"github.com/pressly/goose/v3"
 	"github.com/urfave/cli/v2"
 	"golang.org/x/exp/slices"
